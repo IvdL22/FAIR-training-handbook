@@ -119,15 +119,15 @@ Two types of PIDs are used when sharing materials from our events.
 ### 2. Assing own persistent identifier for events combined with DOI for material
 [CLARIN](https://www.clarin.eu/) is a digital research infrastructure offering data, tools and services to support research based on language resources. Currently, the infrastructure does not have a centralised repository to store all the training and learning materials produced during the training events and workshops. 
 
-A training event usually contains the following information: slides, handouts, video tutorials, language resources datasets and/or tools. The slides and handouts are frequently published on the event web page, while the recordings of the presentations are published on the CLARIN YouTube channel. On the other hand, the language resources and tools used during the training are stored in the CLARIN national repositories with a **unique** identifier, and can be cited.
+A training event usually consists of slides, handouts, video tutorials, language resources datasets and/or tools, github code or other content. The slides and handouts are published on the event web page, while the video recordings of the presentations are published on the CLARIN YouTube channel (https://www.youtube.com/channel/UCJPks1mzisqsS4NrBFKIWag/videos). On the other hand, the language resources and tools used during the training are stored in the CLARIN national repositories with a **unique** identifier, and can be cited.
 
-One possible solution to have a PID assigned to all the materials used during one training event is to create a virtual collection in the CLARIN [Virtual Collection Registry](https://collections.clarin.eu/public?7). A virtual collection is a coherent set of links of digital objects that can be easily created, accessed and cited with the help of **DOIs**. The links can originate from different archives. Here is an example of a virtual collection created for a hands-on tutorial on transcribing interview data: http://hdl.handle.net/11372/VC-1033.
+One possible solution to have a PID assigned to all the materials used during one training event is to create a virtual collection in the CLARIN [Virtual Collection Registry](https://collections.clarin.eu/public?7). A virtual collection is a coherent set of links of digital objects that can be easily created, accessed and cited with the help of **DOIs** or **Handle**. The links can originate from different archives or web pages that have a persistent URL. Here is an example of a virtual collection created for a hands-on tutorial on transcribing interview data: http://hdl.handle.net/11372/VC-1033.
 
 <figure>
     <img src="../../assets/images/clarin_image1.png"
     width="500" alt="Screenshot of CLARIN metadata from workshop tutorial SSHOC"/>
 </figure>
-**Figure 2:** The CLARIN ...
+**Figure 2:** Example of a training collection in the CLARIN Virtual Collection Registry with a persistent identifier
 
 <figure>
     <img src="../../assets/images/fig3-chap5.jpg"
@@ -135,11 +135,14 @@ One possible solution to have a PID assigned to all the materials used during on
 </figure>
 
 
-**Figure 3:** The CLARIN ...
+**Figure 3:** Example of a BibText citation of a virtual training collection in CLARIN Virtual Collection Registry
 
 Other practices that the trainers in the CLARIN community have adopted are:
-* Depositing the training materials together with the datasets in their CLARIN national data repository. See example: http://hdl.handle.net/20.500.11752/OPEN-537. The advantage of using this path is that the authors can add more extensive metadata to describe their materials.
+* Depositing the training materials together with the datasets in their CLARIN national data repository. See example: http://hdl.handle.net/20.500.11752/OPEN-537. The advantage of using this path is that the authors can add more extensive metadata to describe their materials and the collection is assigned a persistent identifier.
 * Depositing the training materials on Zenodo. See example: https://doi.org/10.5281/zenodo.5506969.  In this case, **related identifiers** have been included that lead to the main platform where the course has been developed and maintained.
+* Adding the metadata of the training materials in the SSHOC Open Marketplace, see example (https://marketplace.sshopencloud.eu/training-material/duVII1). In this case, the authors can identify themselves with their ORCID and the collection can be cited. However, there is no unique identifier assigned to the collection itself. 
+
+CLARIN is still working towards finding a common strategy for making their training materials as FAIR as possible.
 
 **You can do the same by using Zenodo, for example, by publishing every material with asigned DOI and then grouping it in a colection/community wich will have its own DOI, as inspired by the next example.**
 
